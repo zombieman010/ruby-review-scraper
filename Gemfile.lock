@@ -11,6 +11,8 @@ GEM
     rack (2.2.3)
     rack-protection (2.2.0)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     regexp_parser (2.2.1)
     rexml (3.2.5)
     rspec (3.11.0)
@@ -51,7 +53,8 @@ PLATFORMS
 
 DEPENDENCIES
   nokogiri (~> 1.11, >= 1.11.7)
-  rspec (~> 3.11)
+  rack-test
+  rspec
   sinatra (~> 2.2)
   watir (~> 6.19, >= 6.19.1)
   webdrivers (~> 4.6)
