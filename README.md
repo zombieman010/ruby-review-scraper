@@ -20,13 +20,15 @@ Body (JSON)
 
 Response 
 JSON array with object: 
+```json 
 {
   "title": "a title", 
   "body": "review body", 
   "author": "an author", 
   "rating": 0, 
-  "date" "a date" (ISO date format yyyy-MM-DD'T'HH:mm:ss)
+  "date": "a date" (ISO date format yyyy-MM-DD'T'HH:mm:ss)
 }
+```
 
 
 ## Test Coverage 
