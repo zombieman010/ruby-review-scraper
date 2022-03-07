@@ -26,7 +26,7 @@ JSON array with object:
   "body": "review body", 
   "author": "an author", 
   "rating": 0, 
-  "date": "a date" (ISO date format yyyy-MM-DD'T'HH:mm:ss)
+  "date": "a date" (date format yyyy-MM-DD'T'HH:mm:ss)
 }
 ```
 
