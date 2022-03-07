@@ -1,5 +1,8 @@
 # ruby-review-scraper
 
+## Run information
+run => ruby ReviewService.rb
+
 ## Build Information 
 Programmed in: Ruby
 RestServer: Sinatra
