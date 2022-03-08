@@ -1,19 +1,19 @@
 # ruby-review-scraper
 
 ## Run information
-run => ruby ReviewService.rb
+run => ruby controller.rb
 
 ## Build Information 
-Programmed in: Ruby
-RestServer: Sinatra
-Scraper: Nokogiri
+- Programmed in: Ruby
+- RestServer: Sinatra
+- Scraper: Nokogiri
 
 ## Supported templates
 Currently only taking requests for https://www.productreview.com.au/listings/<review>
 
 ## Endpoint 
 POST Request
- - host/location
+ - {host} /location
 
 Body (JSON)
  - attribute name => location (full url) 
@@ -36,7 +36,7 @@ JSON array with object:
 - Template exception => 404 NOT FOUND 
 
 ## Test Coverage 
-Test coverage is a work in progress. Plan to implement Rspec test cases but ran out of time 
+Ruby tests written with Rspec  
  
  
 
