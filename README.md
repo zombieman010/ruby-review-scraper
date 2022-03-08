@@ -31,7 +31,7 @@ JSON array with object:
 ```
 
  ## Error handling 
-- Unexpected error => 500 INTERNAL SERVIER ERROR
+- Unexpected error => 500 INTERNAL SERVER ERROR
 - Parsing exception => 400 BAD REQUEST 
 - Template exception => 404 NOT FOUND 
 
